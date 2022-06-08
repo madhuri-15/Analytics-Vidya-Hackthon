@@ -60,6 +60,6 @@ Tunning Class weight of sklearn modules gives a best result on training data but
 Tried different resampling methods of `imblearn` library such as RandomOverSampler, SMOTE, SVMSMOTE, RandomUnderSampler, combination of RandomOverSampler and RandomUnderSampler to balance the data.
 
 ### 5. Model Training
-I tried serveral base model such LogisticRegression, RandomForestClassifier, DecisionTreeClassifier, Naive Bayes, GradientBoostingClassifier, XGBoost on balanced data. Amonge these models, `GradientBoostingClassifier` with `SVMSMOTE` oversampling technique gives best macro f1 score and therefore, this model is used for final submission.
+I tried several base model such LogisticRegression, RandomForestClassifier, DecisionTreeClassifier, Naive Bayes, GradientBoostingClassifier, XGBoost on balanced data. Amonge these models, `GradientBoostingClassifier` with `SVMSMOTE` oversampling technique gives best macro f1 score and therefore, this model is used for final submission.
 
 
